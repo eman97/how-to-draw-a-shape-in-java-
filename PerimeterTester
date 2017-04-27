@@ -1,0 +1,17 @@
+/*Write a PerimeterTester program that constructs a Rectangle object and then computes
+and prints its perimeter. Use the getWidth and getHeight methods. Also print the
+expected answer.*/
+import java.awt.Rectangle;
+public class PerimeterTester
+{
+  public static void main(String[] args)
+  {
+      Rectangle box = new Rectangle(5,10,20,30);
+      double h=box.getHeight();
+      double w=box.getWidth();
+      double perimeter=h+h+w+w;
+      System.out.println("Height: "+h);
+      System.out.println("Width: "+w);
+      System.out.println("Perimeter: "+perimeter);
+}
+}
